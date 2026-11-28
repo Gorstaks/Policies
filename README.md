@@ -8,7 +8,7 @@ A Windows security baseline stored as a local Group Policy backup, with the tool
 
 | Item | Description |
 | --- | --- |
-| `{09EC67FF-...}\` | The GPO backup. Contains machine and user `registry.pol`, `audit.csv` (advanced audit policy) and `GptTmpl.inf` (security settings), plus `Backup.xml` and `Bkupinfo.xml`. |
+| `{F23F984B-...}\` | The GPO backup. Contains machine and user `registry.pol`, `audit.csv` (advanced audit policy) and `GptTmpl.inf` (security settings), plus `Backup.xml` and `Bkupinfo.xml`. |
 | `LGPO.exe` | Microsoft Local Group Policy Object utility. Imports and exports policy. |
 | `PolicyPlusLatest.exe` | Policy Plus, a third-party local policy editor. Use it to inspect or edit the baseline, including on Windows Home. |
 | `PoliciesInstall.cmd` | Imports the baseline with `lgpo /g ./`. |
